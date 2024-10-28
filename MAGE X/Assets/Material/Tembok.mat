@@ -25,6 +25,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - N_F_DNO_ON
   - N_F_EAL_ON
   - N_F_O_ON
   - N_F_RDC_ON
@@ -34,7 +35,6 @@ Material:
   m_InvalidKeywords:
   - N_F_TRANSAFFSHA
   - _CUSTOMLIGHTDIRECTIONFOLLOWOBJECTROTATION_OFF
-  - _GIFLATSHADE_OFF
   - _GLOSSTEXTUREFOLLOWOBJECTROTATION_OFF
   - _LIGHTAFFECTOUTLINECOLOR_OFF
   - _LIGHTAFFECTRIMLIGHTCOLOR_OFF
@@ -206,12 +206,12 @@ Material:
     - _DoubleSidedOutline: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _DynamicNoisyOutline: 0
+    - _DynamicNoisyOutline: 1
     - _EnvironmentReflections: 1
     - _EnvironmentalLightingIntensity: 1
     - _FarDistanceMaxWidth: 10
-    - _GIFlatShade: 0
-    - _GIShadeThreshold: 0
+    - _GIFlatShade: 1
+    - _GIShadeThreshold: 1
     - _GlossColorPower: 10
     - _GlossIntensity: 1
     - _GlossMapScale: 0
@@ -234,7 +234,7 @@ Material:
     - _MCIALO: 0
     - _MCapIntensity: 1
     - _MVCOL: 0
-    - _MaiColPo: 0.8
+    - _MaiColPo: 1
     - _MaxFadDistance: 2
     - _Metallic: 0
     - _MinFadDistance: 0
@@ -272,13 +272,13 @@ Material:
     - _N_F_STIAL: 0
     - _N_F_STIS: 0
     - _N_F_TP: 0
-    - _NoisyOutlineIntensity: 0
+    - _NoisyOutlineIntensity: 0.3
     - _NormalMapIntensity: 1
     - _OcclusionStrength: 1
     - _Opacity: 1
     - _Oper: 0
-    - _OutlineExtrudeMethod: 0
-    - _OutlineWidth: 0
+    - _OutlineExtrudeMethod: 1
+    - _OutlineWidth: 0.005
     - _OutlineWidthAffectedByViewDistance: 0
     - _OutlineZPostionInCamera: 0
     - _OverallShadowColorPower: 1
@@ -313,7 +313,7 @@ Material:
     - _SelfShadowShadowTAtViewDirection: 0
     - _SelfShadowThreshold: 0.96
     - _ShadowColorTexturePower: 0
-    - _ShadowHardness: 0
+    - _ShadowHardness: 1
     - _ShadowTColorPower: 1
     - _ShadowTHardness: 1
     - _ShadowTIntensity: 1
@@ -352,11 +352,11 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlossColor: {r: 1, g: 1, b: 1, a: 1}
     - _Glow_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _HighlightColor: {r: 1, g: 0.4066498, b: 0.058490515, a: 1}
+    - _HighlightColor: {r: 0.9622642, g: 0.74856585, b: 0.45571372, a: 1}
     - _MainColor: {r: 0.14015658, g: 0.4792453, b: 0.1443952, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0.009134057, g: 0.088655606, b: 0.020288562, a: 1}
     - _OutlineOffset: {r: 0, g: 0, b: 0, a: 1}
-    - _OverallShadowColor: {r: 0.05977212, g: 0.2754717, b: 0.19833758, a: 1}
+    - _OverallShadowColor: {r: 0.009063689, g: 0.2528302, b: 0.118783854, a: 1}
     - _PTCol: {r: 0, g: 0, b: 0, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _SSAOColor: {r: 0, g: 0, b: 0, a: 0}

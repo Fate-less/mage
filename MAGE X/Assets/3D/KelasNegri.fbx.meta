@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Batik
+    second: {fileID: 2100000, guid: 92f42175aa1062749adf61aabd0d832f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JadwalPiket
+    second: {fileID: 2100000, guid: dbab12c092770144286893ec2a245ee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Kayu
     second: {fileID: 2100000, guid: 0b61c3b749c416f4b95ff2c0f7982dba, type: 2}
   - first:
@@ -22,8 +32,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 30b92673b9b7ef44c9c11a474d9910c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pinggiran Tembok
+    second: {fileID: 2100000, guid: c6d9bc4d433b47844ae01240a5712b3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pintu
+    second: {fileID: 2100000, guid: 0b61c3b749c416f4b95ff2c0f7982dba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Tembok
     second: {fileID: 2100000, guid: 43d1720bf98083a4fb49c28d315e29a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteBoard
+    second: {fileID: 2100000, guid: d9d31a720a51f1c45894d9a6898a79e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteboarUjung
+    second: {fileID: 2100000, guid: ed172edb2a684294fbcf564af8438c28, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
