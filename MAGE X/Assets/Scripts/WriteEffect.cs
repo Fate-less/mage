@@ -9,7 +9,7 @@ public class WriterEffect : MonoBehaviour
     public float typeSpeed = 0.05f;
     public float delayBetweenTexts = 2f; // Delay before switching to the next text
 
-    private void Start()
+    public void StartTyping()
     {
         if (textMeshPro != null && texts.Length > 0)
         {
