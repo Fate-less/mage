@@ -8,14 +8,16 @@ public class EventHandler : MonoBehaviour
     private LectureSession lectureSession;
     private TaskSession taskSession;
     private ClosingSession closingSession;
+    private EndGameStats gameStats;
     private int sessionPassed;
 
     private void Start()
     {
-        timeMonitor = GameObject.Find("Handler").GetComponent<TimeMonitor>();
-        lectureSession = GameObject.Find("Handler").GetComponent<LectureSession>();
-        taskSession = GameObject.Find("Handler").GetComponent<TaskSession>();
-        closingSession = GameObject.Find("Handler").GetComponent<ClosingSession>();
+        timeMonitor = GetComponent<TimeMonitor>();
+        lectureSession = GetComponent<LectureSession>();
+        taskSession = GetComponent<TaskSession>();
+        closingSession = GetComponent<ClosingSession>();
+        gameStats = GetComponent<EndGameStats>();
     }
     private void Update()
     {

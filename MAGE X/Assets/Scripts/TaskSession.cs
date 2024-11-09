@@ -7,6 +7,7 @@ public class TaskSession : MonoBehaviour
     public GameObject whiteboardTask;
     public GameObject[] taskObjects;
     public TaskAnswerCheck[] taskAnswers;
+    public StareDetection stareDetection;
 
     private EndGameStats gameStats;
 
@@ -18,6 +19,7 @@ public class TaskSession : MonoBehaviour
     public void StartSession()
     {
         whiteboardTask.SetActive(true);
+        stareDetection.enabled = false;
         for(int i = 0; i < taskObjects.Length; i++)
         {
             taskObjects[i].SetActive(true);
